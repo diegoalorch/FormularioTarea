@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="/imagen/fondo1.jpg">
+</head>
+<body>
+    <section>
+        <form action="" method="GET">
+            <h1><center>Información</center></h1>
+            <fieldset>
+                <legend><h1><center>DATOS PERSOINALES</center></h1></legend>
+                <br>
+                <label for="a">Nombres: </label><br>
+                <input type="text" id="caja1" class="cajita" name="nombres" placeholder="Nombres"><br>
+                <br>
+                <label for="b">Descripción </label><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Agregar Descripción"></textarea><br>
+                <br>
+                <label for="c">Foto: 
+                    <input type="text" id="caja2" class="cajita" name="Foto" placeholder="Elegir foto">
+                </label>
+                <input type="button" value="Elegir..."><br>
+                <br>
+                <input type="radio" id="caja3" class="cajita">Añadir contador de visitas<br>
+            </fieldset>
+            <fieldset>
+                <legend><center><h1>DATOS ECONÓMICOS</h1></center></legend>
+                <label for="d">Precio: </label>
+                <input type="number" id="caja4" class="cajita" name="precios" placeholder="Precios">
+                <label for="e"> €  </label>
+                <label for="f">Impuestos</label>
+                <select name="impuestos" id="impuestos">
+                    <option value="0">Seleccionar Impuesto</option><br>
+                    <option value="1">4%</option>
+                    <option value="2">7%</option>
+                    <option value="3">16%</option>
+                    <option value="4">25%</option>
+                </select><br>
+                <br><label for="g">Promoción</label><br>
+                <input type="radio" id="caja5" class="cajita">Ninguno<br>
+                <input type="radio" id="caja6" class="cajita">Transporte Gratuito<br>
+                <input type="radio" id="caja7" class="cajita">Descuento 5%<br>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>

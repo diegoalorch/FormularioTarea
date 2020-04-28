@@ -1,0 +1,8 @@
+*{
+    margin: 1;
+    padding: 1;
+}
+body{
+    background-image: url("/imagen/fondo1.jpg");
+    background-color: rgb(228, 132, 68);
+}
